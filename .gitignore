@@ -1,0 +1,6 @@
+*.DS_Store
+.idea/
+*__pycache__/
+spxusd_years/
+test_notebook.ipynb
+plan.drawio
