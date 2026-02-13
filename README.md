@@ -9,20 +9,21 @@
 - Daily bid, ask, and volume data for S&P500 saved as CSV 📊
 - Specify any date range starting from *2003-03-23* all the way to today's date 🗓️
 
-## Environment Setup 🔧
+## Environment Setup 🔧
+
 This project is designed for **Python Version 3.14.3** 🐍
 
 Set up a virtual environment of your choice (`conda`, `venv`, `poetry`, etc.), and simply run `pip install -r requirements.txt` to install all required dependencies.
 
 You will need to make sure to set a couple of **environment variables** so you can authenticate to the API. See the **"API Authentication"** section for more info.
 
-## API Authentication 🔐
+## API Authentication 🔐
 
 You will need an **Oanda Trading Account** in order to have access to the API (free to set up).
 
 Once you've made an account, you'll only need *2 things* to get started - your **Account ID**, and a **Personal Access Token**.
 
-### Account ID:
+### Account ID:
 You can find your **Account ID** by going to your **Dashboard**, and looking at the small grey number under one of your **Accounts**:
 
 ![](README_images/account_id_guide.png)
@@ -34,7 +35,7 @@ You can get your **Personal Access Token** by selecting **"Trading Tools"** in t
 
 ![](README_images/personal_access_token_guide.png)
 
-### Environment Variables:
+### Environment Variables:
 Once you've got your *Account ID* and *Personal Access Token*, you'll need to make sure they are set as environment variables in your terminal. 
 The recommended way to do this is to add the following to your `.bashrc` (or `.zshrc` if using `zsh`):
 ```
